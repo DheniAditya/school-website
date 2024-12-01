@@ -1,0 +1,17 @@
+/* color pallete 
+ primary #122B4A
+ secondary #FAFAFA
+ tertiary #34904C
+ accent #15415E
+ bg #EEF2F5
+ inner effect 090E22
+ */
+
+ :root {
+    --primary : #122b4a;
+    --secondary : #fafafa;
+    --tertiary : #15415e;
+    --accent : #34904c;
+    --bg : #eef2f5;
+    --inter : #090e22;
+ }
