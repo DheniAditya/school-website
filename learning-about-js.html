@@ -13,10 +13,10 @@
     <script>
         let x = jsFunction (54, 12);
         document.getElementById("function").innerHTML = x;
-        
         function jsFunction(a, b){
             return a * b;
         }
+
         function toCelcius (fahrenheit){
             return (5/9) * (fahrenheit-32); 
         }
@@ -25,6 +25,8 @@
 
         let z = "Here variable include function also" + toCelcius(20);
         document.getElementById("function-variable").innerHTML = z;
+
+        let a = "here" + toCelcius;
     </script>
 </body>
 </html>
