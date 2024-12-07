@@ -15,3 +15,23 @@
     --bg : #eef2f5;
     --shadow : #090e22;
  }
+
+ * {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ header{
+   width: 100vw;
+   height: 8vh;
+   background-color: red;
+   border: 1px solid #090e22;
+   flex-direction:row;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+ }
+
+
+ body{
+   margin: 0;
+ }
