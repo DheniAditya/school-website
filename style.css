@@ -23,7 +23,6 @@
  header{
    width: 100vw;
    height: 8vh;
-   background-color: red;
    border: 1px solid #090e22;
    flex-direction:row;
    display: flex;
@@ -31,7 +30,37 @@
    align-items: center; 
  }
 
+ #logo {
+   font-size: 2vw;
+   margin: 1vw;
+   color: var(--primary);
+ }
+
+ nav {
+   font-size: 1.5vw;
+   text-decoration: none;
+   padding-right: 2vw;
+   flex-direction: row;
+   display: flex;
+   gap: 1vw;
+ }
+
+ nav div{
+   align-items: center;
+   justify-content: center;
+   border-radius: 30%;
+   width: auto;
+   height: 5vh;
+   background-color: var(--bg);
+ }
+
+ #navbar {
+   color: var(--primary);
+   text-decoration: none;
+   margin: 2vw;
+ }
 
  body{
    margin: 0;
- }
+   background-color: darkgrey;
+}
