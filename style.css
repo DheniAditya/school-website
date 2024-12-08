@@ -27,7 +27,7 @@
 
  header{
    width: 100vw;
-   height: 8vh;
+   height: 10vh;
    border: 1px solid #090e22;
    flex-direction:row;
    display: flex;
@@ -36,9 +36,28 @@
  }
 
  #logo {
+   flex-direction: row;
+   display: flex;
    font-size: 2vw;
    margin: 1vw;
    color: var(--primary);
+ }
+
+ #logo i {
+   margin: 2px;
+ }
+
+ #logo div{
+   display: flex;
+   flex-direction: column;
+   font-weight: 600;
+   margin: -10px 0px;
+ }
+
+ #logo div span{
+   font-weight:lighter;
+   font-size: 1.5vw;
+   margin: -5px 0px;
  }
 
  nav {
