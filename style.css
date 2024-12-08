@@ -18,7 +18,9 @@
 
  * {
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+   transition: 0.5s;
+   scroll-behavior: smooth;
+  }
  
  body{
    margin: 0;
@@ -41,21 +43,23 @@
    font-size: 2vw;
    margin: 1vw;
    color: var(--primary);
- }
+   cursor: pointer;
+  }
 
  #logo i {
    margin: 2px;
+   font-size: 3vw;
  }
 
  #logo div{
    display: flex;
    flex-direction: column;
    font-weight: 600;
-   margin: -10px 0px;
+   margin: -3px 5px;
  }
 
  #logo div span{
-   font-weight:lighter;
+   font-weight: 100; 
    font-size: 1.5vw;
    margin: -5px 0px;
  }
@@ -72,13 +76,22 @@
  }
 
  nav a{
-   background-color: yellow;
+   background-color: var(--bg);
    border-radius: 20px;
-   padding:5px 20px;
- }
+   padding:8px 20px;
+   font-size: 1.3vw;
+   }
 
  #navbar {
    color: var(--primary);
    text-decoration: none;
+   border: 1px solid transparent;
+ }
+
+ #navbar:hover{
+  color: var(--bg);
+  background-color: transparent;
+  border: 1px solid var(--bg);
+  transition: 0.2s;
  }
 
