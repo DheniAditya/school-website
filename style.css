@@ -26,7 +26,7 @@
    margin: 0;
    background-image: url('Advice\ to\ New\ Grads.jpg');
    background-size:100vw;
-   backdrop-filter: blur(50px);
+   filter: blur(10px);
 }
 
  header{
