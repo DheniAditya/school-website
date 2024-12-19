@@ -24,7 +24,9 @@
  
  body{
    margin: 0;
-   background-color: darkgrey;
+   background-image: url('Advice\ to\ New\ Grads.jpg');
+   background-size:100vw;
+   backdrop-filter: blur(50px);
 }
 
  header{
