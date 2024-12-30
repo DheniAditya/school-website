@@ -30,12 +30,47 @@
    align-items: center;
    display: flex;
    flex-direction: column;
+   overflow: hidden;
+}
+
+#blur-div {
+  position: absolute;
+  width: 110%;
+  height: 110vh;
+  background-image: url('Graduation.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(5px); 
+  z-index: -2; 
+  transform: translateX(400px);
+}
+#blur-div1 {
+  position: absolute;
+  width: 110%;
+  height: 110vh;
+  background-image: url('Graduation.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(5px); 
+  z-index: -3; 
+}
+
+#blur-div2 {
+  transform: translateX(-340px);
+  position: absolute;
+  width: 80%;
+  height: 150vh;
+  background-color: var(--primary);
+  opacity: 80%;
+  background-size: cover; 
+  z-index: -1; 
+  filter: blur(120px);
 }
 
  header{
    width: 100vw;
    height: 10vh;
-   border: 1px solid #090e22;
+   /* border: 1px solid #090e22; */
    flex-direction:row;
    display: flex;
    justify-content: space-between;
@@ -48,7 +83,7 @@
    font-size: 2vw;
    margin: 1vw;
    margin-left: 4vw;
-   color: var(--primary);
+   color: var(--bg);
    cursor: pointer;
   }
 
@@ -117,11 +152,11 @@
   font-weight: bold;
   margin: 10px 0px;
   line-height: 48px;
-  color: var(--primary);
+  color: var(--bg);
 }
 
  #text2{
-  color: var(--primary);
+  color: var(--bg);
   width: 60%;
   font-size: 20px;
   font-weight:lighter;
