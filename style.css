@@ -83,7 +83,7 @@
 
  nav a{
    background-color: var(--bg);
-   border-radius: 20px;
+   border-radius: 25px;
    padding:8px 20px;
    font-size: 1.3vw;
    }
@@ -102,7 +102,7 @@
  }
 
  #hero{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 90%;
   height: 85vh;
   align-items:flex-start;
@@ -117,9 +117,11 @@
   font-weight: bold;
   margin: 10px 0px;
   line-height: 48px;
+  color: var(--primary);
 }
 
  #text2{
+  color: var(--primary);
   width: 60%;
   font-size: 20px;
   font-weight:lighter;
@@ -128,4 +130,23 @@
 
  #text2-span {
   font-weight: bold;
+ }
+
+ #hero-button{
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+ }
+
+ #child-hero-button{
+  text-decoration: none;
+  color: var(--primary);
+  border-radius: 25px;
+  border: 1px solid transparent;
+ }
+
+ #child-hero-button:hover{
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+  background-color: transparent;
  }
