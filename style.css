@@ -17,7 +17,7 @@
  }
 
  * {
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    transition: 0.5s;
    scroll-behavior: smooth;
   }
@@ -25,6 +25,10 @@
  body{
    margin: 0;
    background:rgb(0, 167, 167);
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
 }
 
  header{
@@ -96,3 +100,28 @@
   transition: 0.2s;
  }
 
+ #hero{
+  border: 1px solid black;
+  width: 90%;
+  height: 85vh;
+  align-items:flex-start;
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+}
+
+ #text1{
+  width: 60%;
+  font-size: 40px;
+  font-weight: 500;
+ }
+
+ #text2{
+  width: 60%;
+  font-size: 20px;
+  font-weight:100;
+ }
+
+ #text2-span {
+  font-weight: 500;
+ }
