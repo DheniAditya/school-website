@@ -61,6 +61,7 @@
   width: 80%;
   height: 150vh;
   background-color: var(--primary);
+  background-repeat: no-repeat;
   opacity: 80%;
   background-size: cover; 
   z-index: -1; 
