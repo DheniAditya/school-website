@@ -26,9 +26,6 @@
  body{
    margin: 0;
    background:rgb(0, 167, 167);
-   /* justify-content: center; */
-   /* align-items: center; */
-   /* display: flex; */
    flex-direction: column;
    overflow-x: hidden;
 }
@@ -104,12 +101,13 @@
 
  #hero{
   /* border: 1px solid black; */
-  width: 90%;
+  width: 100vw;
   height: 100vh;
   align-items:flex-start;
   justify-content:center;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 #blur-div {
   position: absolute;
@@ -121,11 +119,13 @@
   filter: blur(5px); 
   z-index: -2; 
   transform: translateX(400px);
+
 }
 #blur-div1 {
   position: absolute;
   width: 110%;
   height: 110vh;
+  margin-top: -12vh;
   background-image: url('Graduation.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -138,6 +138,7 @@
   position: absolute;
   width: 80%;
   height: 150vh;
+  margin-top: -12vh;
   background-color: var(--primary);
   background-repeat: no-repeat;
   opacity: 80%;
@@ -151,7 +152,7 @@
   width: 60%;
   font-size: 40px;
   font-weight: bold;
-  margin: 10px 0px;
+  margin: 10px 50px;
   line-height: 48px;
   color: var(--bg);
 }
@@ -161,7 +162,7 @@
   width: 60%;
   font-size: 20px;
   font-weight:lighter;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 10px 50px;
  }
 
  #text2-span {
@@ -171,7 +172,7 @@
  #hero-button{
   width: 100%;
   height: auto;
-  margin: 10px 0px;
+  margin: 10px 50px;
  }
 
  #child-hero-button{
