@@ -33,41 +33,6 @@
    overflow-x: hidden;
 }
 
-#blur-div {
-  position: absolute;
-  width: 110%;
-  height: 110vh;
-  background-image: url('Graduation.jpg'); 
-  background-size: cover; 
-  background-position: center; 
-  filter: blur(5px); 
-  z-index: -2; 
-  transform: translateX(400px);
-}
-#blur-div1 {
-  position: absolute;
-  width: 110%;
-  height: 110vh;
-  background-image: url('Graduation.jpg'); 
-  background-size: cover; 
-  background-position: center; 
-  filter: blur(5px); 
-  z-index: -3; 
-}
-
-#blur-div2 {
-  transform: translateX(-340px);
-  position: absolute;
-  width: 80%;
-  height: 150vh;
-  background-color: var(--primary);
-  background-repeat: no-repeat;
-  opacity: 80%;
-  background-size: cover; 
-  z-index: -1; 
-  filter: blur(110px);
-}
-
  header{
    width: 100vw;
    height: 10vh;
@@ -146,6 +111,41 @@
   display: flex;
   flex-direction: column;
 }
+#blur-div {
+  position: absolute;
+  width: 110%;
+  height: 110vh;
+  background-image: url('Graduation.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(5px); 
+  z-index: -2; 
+  transform: translateX(400px);
+}
+#blur-div1 {
+  position: absolute;
+  width: 110%;
+  height: 110vh;
+  background-image: url('Graduation.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  filter: blur(5px); 
+  z-index: -3; 
+}
+
+#blur-div2 {
+  transform: translateX(-340px);
+  position: absolute;
+  width: 80%;
+  height: 150vh;
+  background-color: var(--primary);
+  background-repeat: no-repeat;
+  opacity: 80%;
+  background-size: cover; 
+  z-index: -1; 
+  filter: blur(110px);
+}
+
 
  #text1{
   width: 60%;
