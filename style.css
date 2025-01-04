@@ -37,6 +37,7 @@
   position: absolute;
   width: 110%;
   height: 110vh;
+  margin-top: -620px;
   background-image: url('Graduation.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -48,6 +49,7 @@
   position: absolute;
   width: 110%;
   height: 110vh;
+  margin-top: -620px;
   background-image: url('Graduation.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -60,14 +62,14 @@
   position: absolute;
   width: 80%;
   height: 150vh;
+  margin-top: -620px;
   background-color: var(--primary);
   background-repeat: no-repeat;
   opacity: 80%;
   background-size: cover; 
   z-index: -1; 
-  filter: blur(120px);
+  filter: blur(110px);
 }
-
 
  header{
    width: 100vw;
@@ -141,7 +143,7 @@
  #hero{
   /* border: 1px solid black; */
   width: 90%;
-  height: 85vh;
+  height: 100vh;
   align-items:flex-start;
   justify-content:center;
   display: flex;
@@ -188,8 +190,19 @@
   background-color: transparent;
  }
 
-
  #highlight-section{
   height: 100vh;
   width: 100vw;
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
+
+#highlight-card-parents{
+  height: 160px;
+  width: 70vw;
+  background-color: #090e22;
+  z-index: 2;
+  margin-top: -80px;
+}
