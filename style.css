@@ -26,9 +26,9 @@
  body{
    margin: 0;
    background:rgb(0, 167, 167);
-   justify-content: center;
-   align-items: center;
-   display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   /* display: flex; */
    flex-direction: column;
    overflow-x: hidden;
 }
@@ -37,7 +37,6 @@
   position: absolute;
   width: 110%;
   height: 110vh;
-  margin-top: -620px;
   background-image: url('Graduation.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -49,7 +48,6 @@
   position: absolute;
   width: 110%;
   height: 110vh;
-  margin-top: -620px;
   background-image: url('Graduation.jpg'); 
   background-size: cover; 
   background-position: center; 
@@ -62,7 +60,6 @@
   position: absolute;
   width: 80%;
   height: 150vh;
-  margin-top: -620px;
   background-color: var(--primary);
   background-repeat: no-repeat;
   opacity: 80%;
