@@ -48,10 +48,11 @@
    margin-left: 4vw;
    color: var(--bg);
    cursor: pointer;
+   margin-top: 30px;
   }
 
  #logo i {
-   margin: 2px;
+   margin: auto;a
    font-size: 3vw;
  }
 
@@ -69,6 +70,7 @@
  }
 
  nav {
+  margin-top: 30px;
    font-size: 1.5vw;
    text-decoration: none;
    padding-right: 5vw;
@@ -203,4 +205,13 @@
   background-color: #090e22;
   z-index: 2;
   margin-top: -80px;
+  border-radius: 10px;
+}
+
+#highlight-card-child{
+  height: 100%;
+  width: 25%;
+  border-radius: 10px 0px 0px 10px;
+  background-color:white ;
+  border;
 }
