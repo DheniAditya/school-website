@@ -52,7 +52,7 @@
   }
 
  #logo i {
-   margin: auto;a
+   margin: auto;
    font-size: 3vw;
  }
 
@@ -202,16 +202,38 @@
 #highlight-card-parents{
   height: 160px;
   width: 70vw;
-  background-color: #090e22;
+  background-color: var(--primary);
   z-index: 2;
   margin-top: -80px;
   border-radius: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+#highlight-card-child1{
+  height: 100%;
+  width: 25%;
+  border-radius: 10px 0px 0px 10px;
+  background-color:var(--bg) ;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+#line1{
+  height: 5px;
+  width: 100px;
+  background-color: #00000050;
 }
 
 #highlight-card-child{
   height: 100%;
   width: 25%;
-  border-radius: 10px 0px 0px 10px;
-  background-color:white ;
-  border;
+  background-color:var(--bg) ;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
+}
+#highlight-card-child2{
+  height: 100%;
+  width: 25%;
+  border-radius: 0px 10px 10px 0px;
+  background-color:var(--bg) ;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
 }
