@@ -247,6 +247,7 @@ margin: 25px 0px -5px 0px;
 #highlight-card-child p{
   font-size: 15px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 #highlight-card-child div {
@@ -259,6 +260,7 @@ margin: 25px 0px -5px 0px;
 #highlight-card-child div div{
   display: flex;
   flex-direction: column;
+  margin: 0px 2px 0px 5px ;
 }
 .card-date{
   font-size: 30px;
@@ -270,6 +272,12 @@ margin: 25px 0px -5px 0px;
   /* color: var(--shadow); */
   font-weight: normal;
   font-size: 15px;
+}
+
+#card-text{
+  font-weight: normal;
+  font-size: 12px;
+  margin: 0;
 }
 
 #highlight-card-child2{
