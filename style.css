@@ -202,7 +202,7 @@
 #highlight-card-parents{
   height: 160px;
   width: 70vw;
-  background-color: var(--primary);
+  background-color: var(--bg);
   z-index: 2;
   margin-top: -80px;
   border-radius: 10px;
@@ -238,6 +238,8 @@ margin: 25px 0px -5px 0px;
 #highlight-card-child, #highlight-card-child2 {
   height: 100%;
   width: 25%;
+  margin-left: 15px;
+  margin-right: -20px;
   background-color:var(--bg) ;
   /* margin: 0; */
 }
@@ -289,4 +291,12 @@ margin: 25px 0px -5px 0px;
   border-radius: 0px 10px 10px 0px;
   background-color:var(--bg) ;
   /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+#line1{
+  width: 2px;
+  height: 70%;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.411);
+  border-radius: 10px;
 }
