@@ -191,9 +191,9 @@
  }
 
  #highlight-section{
-  height: 50vh;
+  height: 55vh;
   width: 100vw;
-  background-color: var(--bg);
+  background-color: var(--secondary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -202,7 +202,7 @@
 #highlight-card-parents{
   height: 160px;
   width: 70vw;
-  background-color: var(--bg);
+  background-color: var(--secondary);
   z-index: 2;
   margin-top: -80px;
   border-radius: 10px;
@@ -240,7 +240,7 @@ margin: 25px 0px -5px 0px;
   width: 25%;
   margin-left: 15px;
   margin-right: -20px;
-  background-color:var(--bg) ;
+  background-color:var(--secondary) ;
   /* margin: 0; */
 }
 
@@ -289,7 +289,7 @@ margin: 25px 0px -5px 0px;
   height: 100%;
   width: 25%;
   border-radius: 0px 10px 10px 0px;
-  background-color:var(--bg) ;
+  background-color:var(--secondary) ;
   /* border-right: 1px solid rgba(0, 0, 0, 0.5); */
 }
 
@@ -346,3 +346,40 @@ margin: 25px 0px -5px 0px;
   margin: 5px 15px 0 15px;
   font-size: 15px;
 }
+
+#about{
+  height: 50vh;
+  width: 100vw;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;  
+  flex-direction: row;
+}
+
+#about-text{
+  background-color: yellow;
+  align-items:end;
+  display: flex;
+  flex-direction: column;   
+}
+
+#about-text1 {
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 18px;
+}
+
+#about-text2{
+  width: 80%;
+  text-align: right;
+  margin: 0px;
+  margin-right: 10px;
+  color: var(--primary);
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: lighter;
+
+}
+
