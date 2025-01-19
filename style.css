@@ -13,7 +13,7 @@
     --tertiary : #15415e;
     --accent : #34904c;
     --bg : #eef2f5;
-    --shadow : #090e22;
+    --shadow : rgba(0, 0, 0, 0.500);
  }
 
  * {
@@ -385,7 +385,7 @@ margin: 25px 0px -5px 0px;
   margin: 0px;
   margin-top: -5px;
   margin-right: 10px;
-  color: var(--primary);
+  color: var(--shadow);
   font-size: 10px;
   text-transform: uppercase;
   font-weight: lighter;
@@ -394,23 +394,51 @@ margin: 25px 0px -5px 0px;
 #about-text3 {
   text-align: right;
   margin-right: 10px;
-  color: var(--primary);
+  color: var(--shadow);
   font-size: 12px;
   font-weight: lighter;     
   margin-top: 15px;
 }
 
 #about-card{
-  background-color: green;
-  width: 300px;
-  height: 250px;
+  background-color: var(--secondary);
+  width: 280px;
+  height: 300px;
   margin: 20px;
   border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
 }
 
 #about-img{
-  width:100px;
-  height: 100px;
+  width:100%;
+  height: 220px;
+  border: 20px;
+  border-radius: 20px 20px 0 0;
 }
 
+#about-text4 {
+  text-transform: uppercase;
+  color: var(--primary);
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
 
+#about-line{
+  width: 90%;
+  margin: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+#about-line div{
+  color: var(--shadow);
+  text-transform:capitalize;
+}
+
+#about-line i {
+  color: var(--shadow);
+  font-size: 20px;
+}
+ 
