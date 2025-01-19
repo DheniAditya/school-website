@@ -13,7 +13,7 @@
     --tertiary : #15415e;
     --accent : #34904c;
     --bg : #eef2f5;
-    --shadow : rgba(0, 0, 0, 0.500);
+    --shadow : rgba(0, 0, 0, 0.700);
  }
 
  * {
@@ -28,6 +28,7 @@
    background:rgb(0, 167, 167);
    flex-direction: column;
    overflow-x: hidden;
+   /* display: flex; */
 }
 
  header{
@@ -52,7 +53,8 @@
   }
 
  #logo i {
-   margin: auto;
+   margin: 8px;
+   margin-top: 12px;
    font-size: 3vw;
  }
 
@@ -95,11 +97,33 @@
  }
 
  #navbar:hover{
-  color: var(--bg);
+  color: var(--tertiary);
   background-color: transparent;
-  border: 1px solid var(--bg);
+  border: 1px solid var(--primary);
   transition: 0.2s;
  }
+
+#nav{
+  margin-left: 50px;
+  margin-top: -140px;
+  margin-bottom: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#nav1{
+  margin: 0px;
+}
+
+#nav2{
+  margin-left: 0px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: var(--bg);
+  text-transform: uppercase;
+  font-size: 15px;
+}
 
  #hero{
   /* border: 1px solid black; */
@@ -208,7 +232,7 @@
   border-radius: 10px;
   flex-direction: row;
   display: flex;
-  box-shadow: 1px 1px 35px black;
+  box-shadow: 1px 1px 35px var(--shadow);
 }
 
 #highlight-card-child1{
@@ -283,6 +307,7 @@ margin: 25px 0px -5px 0px;
   font-weight: normal;
   font-size: 12px;
   margin: 0;
+  color: var(--shadow);
 }
 
 #highlight-card-child2{
@@ -305,6 +330,7 @@ margin: 25px 0px -5px 0px;
   margin: 40px;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 20px;
 }
 
 #highlight2 {
@@ -324,7 +350,7 @@ margin: 25px 0px -5px 0px;
   background-color: var(--bg);
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.404);
+  box-shadow: 0px 0px 15px var(--shadow);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -345,10 +371,11 @@ margin: 25px 0px -5px 0px;
 #h2c-text1{
   margin: 5px 15px 0 15px;
   font-size: 15px;
+  color: var(--shadow);
 }
 
 #about{
-  height: 50vh;
+  height: 60vh;
   width: 100vw;
   background-color: var(--bg);
   display: flex;
@@ -360,7 +387,8 @@ margin: 25px 0px -5px 0px;
   width: 80vw;
   background-color: var(--bg);
   display: flex;
-  align-items: center;  
+  align-items: center;
+  justify-content: center;  
   flex-direction: row;
 }
 #about-text{
@@ -377,6 +405,7 @@ margin: 25px 0px -5px 0px;
   font-weight: bold;
   color: var(--primary);
   font-size: 18px;
+  text-align: right;
 }
 
 #about-text2{
@@ -389,15 +418,16 @@ margin: 25px 0px -5px 0px;
   font-size: 10px;
   text-transform: uppercase;
   font-weight: lighter;
+  /* font-weight: ; */
 }
 
 #about-text3 {
   text-align: right;
-  margin-right: 10px;
+  margin: 30px 10px;
   color: var(--shadow);
   font-size: 12px;
   font-weight: lighter;     
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 #about-card{
@@ -406,7 +436,7 @@ margin: 25px 0px -5px 0px;
   height: 300px;
   margin: 20px;
   border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.500);
+  box-shadow: 0px 0px 10px var(--shadow);
 }
 
 #about-img{
@@ -421,7 +451,7 @@ margin: 25px 0px -5px 0px;
   color: var(--primary);
   font-size: 15px;
   font-weight: bold;
-  margin-left: 10px;
+  margin : 3px 10px;
 }
 
 #about-line{
