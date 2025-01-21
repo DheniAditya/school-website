@@ -479,13 +479,13 @@ margin: 25px 0px -5px 0px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: yellow;
+  background-color: var(--primary);
 }
 
 #footer1{
   width: 80%;
   height: 100%;
-  background-color: brown;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -547,5 +547,9 @@ margin: 25px 0px -5px 0px;
 }
 
 #footer-named{
-  
+  color: var(--secondary);
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
